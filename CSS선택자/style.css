@@ -1,0 +1,92 @@
+/* CSS 선택자: .title, body, #book */
+/* CSS 선언: color: #000000; */ 
+
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 80px;
+}
+
+a {
+  color: #12172a;
+  text-decoration: none;  /* 링크를 연결하면 생기는 밑줄을 없애줌*/
+}
+
+/*
+:hover 마우스를 위에 올려놓은 상태
+:active 마우스를 위에 올려 누른 상태 
+:focus 입력을 기다리는 상태 (e.g. 커서를 주소창에 눌러 깜빡이는 상태, tab키를 눌러
+       링크에 focus가 간 상태에서 enter를 누르면 해당 링크로 이동
+      focus가 된 것의 모양을 지정할 수 있음 
+:visitied 이미 방문한 링크를 표시해 줌
+*/
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  color: #12172a;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 0 0 8px;
+}
+
+.description {
+  color: #818181;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  margin: 0;
+}
+
+.book {
+  background: #f4f5f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(18, 23, 42, 0.03);
+  margin: 64px 0;
+  padding: 24px 48px;
+}
+
+.book-container {
+  margin: 0 auto;
+  width: 324px;
+}
+
+.book-title{
+  color: #12172a;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 24px 0 8px;
+}
+
+.thumb {
+  border: 2px solid #595d6d;
+  border-radius: 4px;
+  box-shadow: 0px 4px 23px rgba(16, 20, 32, 0.1);
+  margin-top: -56px;
+  width: 128px;
+}
+
+.book-description, 
+.book-info {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.book-info {
+  background-color: #000000;
+  border-radius: 12px;
+  color: #ffffff;
+  margin: 24px 0;
+  padding: 12px 28px;
+  text-align: center;
+}
+
+.date {
+  font-weight: 700;
+}
