@@ -1,0 +1,57 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+}
+
+.card {
+  background-image: 
+    linear-gradient(90deg, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0)),
+    url('pizza.png');
+  background-repeat: no-repeat; /*반복 안 함*/
+  background-position: center; /*중앙 정렬*/
+  background-size: cover; /*꽉차게 / contain은 이미지가 잘리지 않는 한에서 최대 크기*/
+  /* box-shadow: 가로 위치 세로 위치 흐림 퍼짐 색 */
+  box-shadow: 10px 15px 20px 5px rgba(0, 0, 0, 0.4); /* 그림자 */
+  color: #ffffff;
+  line-height: 1.7;
+  margin: 40px auto;
+  padding: 40px;
+  width: 480px;
+}
+
+.title {
+  font-size: 20px;
+  margin: 8px 0;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 8px 0;
+}
+
+.description {
+  color: #a7a7a7;
+  font-size: 10px;
+  margin: 8px 0;
+}
+
+.buttons {
+  margin: 16px 0;
+}
+
+.order {
+  background-color: #f13030;
+  color: #ffffff;
+  font-weight: 800;
+  opacity: 0.5; /* 값이 1에 가까울수록 불투명 - 태그(요소) 전체가 반투명해짐*/
+  /* 전체가 반투명이 되지 않게 하려면 rgba 활용 */
+  padding: 6px 16px;
+  text-decoration: none;
+}
+
+.note {
+  color: #676767;
+  font-size: 7px;
+  line-height: 10px
+}
