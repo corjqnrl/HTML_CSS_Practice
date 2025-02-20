@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.header{
+  border-bottom: 1px solid #000000;
+}
+
+.logo {
+  width: 104px;
+  height: auto;
+  margin: 68px 48px 24px;
+}
+
+.menu {
+  margin: 24px 48px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.title {
+  padding-top: 40px;
+  margin: 24px 48px 8px;
+  font-size: 24px;
+  font-weight: 700px;
+  color: #000000;
+}
+
+.date {
+  margin: 8px 48px 24px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.art-image {
+  margin: 24px 0;
+  overflow: scroll;
+  white-space: nowrap;
+  height: 194px;
+}
+
+.art-image img {
+  height: 100%;
+}
+
+.link-section {
+  margin: 24px 48px 72px;
+}
+
+.link {
+  background-color: #000000;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.placeinfo-title {
+  margin: 72px 48px 16px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.place-information {
+  margin: 16px 48px 24px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.image-section {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.space-image {
+  margin: 24px 0;
+  width: 100%;
+}
